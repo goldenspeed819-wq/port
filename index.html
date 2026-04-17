@@ -25,7 +25,8 @@
                             secondary: '#FFD43B',
                             accent: '#4F46E5',
                             dark: '#0B0F1A',
-                            surface: '#161B2C'
+                            surface: '#161B2C',
+                            discord: '#5865F2'
                         }
                     },
                     animation: {
@@ -104,6 +105,7 @@
                 <a href="#sobre" class="text-sm font-medium hover:text-brand-primary transition-colors">Sobre</a>
                 <a href="#habilidades" class="text-sm font-medium hover:text-brand-primary transition-colors">Habilidades</a>
                 <a href="#projetos" class="text-sm font-medium hover:text-brand-primary transition-colors">Projetos</a>
+                <a href="#bots" class="text-sm font-medium hover:text-brand-primary transition-colors">Bots</a>
                 <a href="#contato" class="bg-brand-primary/10 text-brand-primary hover:bg-brand-primary hover:text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 border border-brand-primary/20">
                     Contactar
                 </a>
@@ -149,7 +151,7 @@
                 <div class="relative group">
                     <div class="absolute -inset-1 bg-gradient-to-r from-brand-primary to-brand-secondary rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
                     <div class="relative w-[450px] h-[550px] bg-brand-surface rounded-3xl overflow-hidden border border-white/10">
-                        <img src="https://avatars.githubusercontent.com/u/265655273?s=600" alt="Bruno Soares" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        <img src="https://img.freepik.com/fotos-premium/planeta-terra-vermelha-com-crateras-e-planeta-terra-azul-no-espaco-com-estrelas-papel-de-parede-do-espaco_338491-13094.jpg" alt="Bruno Soares" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                     </div>
                 </div>
             </div>
@@ -216,6 +218,57 @@
 
             <div id="grade-de-projetos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Injetado via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bots Discord -->
+    <section id="bots" class="py-32 bg-brand-dark">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col items-center text-center mb-16">
+                <div class="w-16 h-16 bg-brand-discord/20 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="bot" class="text-brand-discord w-10 h-10"></i>
+                </div>
+                <h2 class="text-brand-discord font-mono text-sm font-bold uppercase tracking-widest mb-4">// Ecossistema Discord</h2>
+                <h3 class="text-4xl md:text-5xl font-bold text-white tracking-tight">Meus Bots Personalizados</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Bot 1 -->
+                <div class="glass p-8 rounded-[2.5rem] border border-white/5 hover:border-brand-discord/50 transition-all duration-500 group relative">
+                    <div class="absolute top-6 right-6 opacity-20">
+                        <i data-lucide="clapperboard" class="w-12 h-12"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Redecanais Bot</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Especializado na busca automatizada de filmes e séries diretamente para o site, facilitando o acesso ao conteúdo.</p>
+                    <a href="https://discord.gg/UWY3b4mGbC" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-discord rounded-xl text-white font-bold hover:bg-opacity-80 transition-all w-full justify-center">
+                        Teste o bot <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Bot 2 -->
+                <div class="glass p-8 rounded-[2.5rem] border border-white/5 hover:border-brand-discord/50 transition-all duration-500 group relative">
+                    <div class="absolute top-6 right-6 opacity-20">
+                        <i data-lucide="shopping-cart" class="w-12 h-12"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Loja CDGGS</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Bot focado em e-commerce dentro do Discord, automatizando a venda de diamantes e passes para Free Fire.</p>
+                    <a href="https://discord.gg/UWY3b4mGbC" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-discord rounded-xl text-white font-bold hover:bg-opacity-80 transition-all w-full justify-center">
+                        Teste o bot <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Bot 3 -->
+                <div class="glass p-8 rounded-[2.5rem] border border-white/5 hover:border-brand-discord/50 transition-all duration-500 group relative">
+                    <div class="absolute top-6 right-6 opacity-20">
+                        <i data-lucide="sword" class="w-12 h-12"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Kitetsu Clan</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Bot multifuncional inspirado no estilo da Loritta, com comandos de entretenimento, moderação e social.</p>
+                    <a href="https://discord.gg/UWY3b4mGbC" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-discord rounded-xl text-white font-bold hover:bg-opacity-80 transition-all w-full justify-center">
+                        Teste o bot <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -384,4 +437,4 @@
         });
     </script>
 </body>
-</html>
+</html>v
